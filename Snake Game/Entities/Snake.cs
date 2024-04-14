@@ -9,7 +9,7 @@
 
         public Snake()
         {
-            Game.DrawObject(Parts[0].X, Parts[0].Y, "S");
+            Game.DrawObject(Parts[0].X, Parts[0].Y, ConsoleColor.DarkMagenta);
         }
 
         public void MoveParts(ConsoleKey key)
@@ -38,7 +38,7 @@
             LastPart.Y = Parts[PartsLastIndex].Y;
 
             // Deletes the last part of the snake
-            Game.DrawObject(Parts[PartsLastIndex].X, Parts[PartsLastIndex].Y, " ");
+            Game.DrawObject(Parts[PartsLastIndex].X, Parts[PartsLastIndex].Y, ConsoleColor.Black);
             Parts.Remove(Parts[PartsLastIndex]);
 
             // Teleports the snake
@@ -61,7 +61,7 @@
 
             // Adds a new part to the snake, in front of the head
             Parts.Insert(0, new BodyPart(x, y));
-            Game.DrawObject(Parts[0].X, Parts[0].Y, "S");
+            Game.DrawObject(Parts[0].X, Parts[0].Y, ConsoleColor.DarkMagenta);
         }
 
         public void AddPart()
@@ -70,7 +70,7 @@
 
             // Adds a new part to the snake, at the last position
             Parts.Add(new BodyPart(LastPart.X, LastPart.Y));
-            Game.DrawObject(LastPart.X, LastPart.Y, "S");
+            Game.DrawObject(LastPart.X, LastPart.Y, ConsoleColor.DarkMagenta);
         }
     }
 }

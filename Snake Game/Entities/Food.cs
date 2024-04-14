@@ -12,7 +12,7 @@
             X = x;
             Y = y;
 
-            Game.DrawObject(X, Y, "F");
+            Game.DrawObject(X, Y, ConsoleColor.Red);
         }
 
         public void RandomPosition(Snake snake)
@@ -33,7 +33,7 @@
             X = x;
             Y = y;
 
-            Game.DrawObject(X, Y, "F");
+            Game.DrawObject(X, Y, ConsoleColor.Red);
         }
     }
 }

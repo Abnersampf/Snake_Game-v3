@@ -13,10 +13,14 @@ internal class Game
     public static bool ContinueGame { get; set; } = true;
 
     // Draws an object on the screen at a specific position
-    public static void DrawObject(int x, int y, string obj)
+    public static void DrawObject(int x, int y, ConsoleColor color)
     {
+        Console.BackgroundColor = color;
+
         Console.SetCursorPosition(x, y);
-        Console.Write(obj);
+        Console.Write(' ');
+
+        Console.BackgroundColor = ConsoleColor.Black;
     }
 
     // Gets and sets the new dimensions of the screen if the user resizes the window
