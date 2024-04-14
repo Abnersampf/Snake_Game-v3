@@ -21,6 +21,8 @@ This is the final version of my series of attempts to make the snake game. This 
 <div>
   <img src="https://github.com/Abnersampf/Snake_Game-v3/assets/58574013/2f1370d6-4681-4994-8091-a654e6feeb71" width="1280px"/>
 </div>
+<br>
+NOTE: the gif is sped up
 
 <h1>Recommendations:</h1>
 
