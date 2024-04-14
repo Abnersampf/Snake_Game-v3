@@ -19,7 +19,7 @@ This is the final version of my series of attempts to make the snake game. This 
 
 <h1>Game Demo</h1>
 <div>
-  <img src="https://github.com/Abnersampf/Snake_Game-v3/assets/58574013/e1f76e3a-4322-45e9-a851-36e2c54edc19" width="1280px"/>
+  <img src="https://github.com/Abnersampf/Snake_Game-v3/assets/58574013/2f1370d6-4681-4994-8091-a654e6feeb71" width="1280px"/>
 </div>
 
 <h1>Recommendations:</h1>
