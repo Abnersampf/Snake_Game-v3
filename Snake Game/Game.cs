@@ -78,6 +78,7 @@ internal class Game
 
     public static void Main(string[] args)
     {
+        Console.Clear();
         while (ContinueGame)
         {
             // Instantiating/creating variables
