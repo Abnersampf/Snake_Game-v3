@@ -31,6 +31,8 @@ internal class Game
 
         Center.X = GameWidth / 2;
         Center.Y = GameHeight / 2;
+
+        MaxPossibleScore = (GameWidth * GameHeight) - 1;
     }
 
     public static void EndGame()
